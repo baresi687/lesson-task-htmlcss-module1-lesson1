@@ -44,9 +44,19 @@ Not advisable */
   display: inline-block;
   margin-right: 20px;
 }
-.navigation ul li a {
-  color: #fff;
+
+/* General selection: any anchor tag that is inside
+.navigation will yellow */
+.navigation a {
+  color: yellow;
   text-decoration: none;
+}
+
+/* Direct descendant of .navigation */
+.navigation > a {
+  color: blue;
+  border: 2px dotted yellow;
+  padding: 10px;
 }
 
 .hero-banner {
@@ -79,5 +89,5 @@ body#home-page {
 }
 
 body#guitar-page {
-  background-color: blue;
+  background-color: grey;
 }
