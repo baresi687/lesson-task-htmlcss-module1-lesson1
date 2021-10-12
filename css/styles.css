@@ -30,6 +30,15 @@ Not advisable */
   font-weight: 800;
 }
 
+.our-guitars img {
+  border-radius: 10px;
+}
+
+.reviews img {
+  width: 150px;
+  border-radius: 50%;
+}
+
 .navigation {
   display: inline-block;
 
@@ -63,8 +72,9 @@ Not advisable */
   background-color: aqua;
   background-image: url("/img/guitar-1.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 220px;
+  height: 420px;
 }
 
 .inner {
